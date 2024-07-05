@@ -1,0 +1,24 @@
+.line-left {
+    width: 37%;
+    border-top: solid 1px black;
+    margin-top: 12px;
+}
+
+.line-right {
+    width: 37%;
+    border-top: solid 1px black;
+    margin-top: 12px;
+}
+
+.facebook {
+    cursor: pointer;
+}
+
+.bi-facebook {
+    margin-right: 4px;
+}
+
+.forgot {
+    font-size: 12px;
+    cursor: pointer;
+}

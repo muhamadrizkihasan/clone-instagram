@@ -1,0 +1,294 @@
+body {
+    background-color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, i, .about {
+    color: white;
+}
+
+/* Sidebar */
+li {
+    list-style: none;
+}
+
+.sidebar {
+    padding: 24px 16px;
+    width: 245px;
+    border-right: solid 1px gray;
+    height: 100vh;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar-instagram {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 42px;
+}
+
+.sidebar-item {
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: -32px;
+    margin-right: -10px;
+    font-size: 18px;
+    color: black;
+    transition: 0.5s;
+}
+
+.sidebar-icon {
+    margin-right: 16px;
+}
+
+.sidebar-image {
+    margin-right: 6px;
+    margin-left: -6px;
+}
+
+.sidebar-logout {
+    margin-top: 50px;
+}
+
+/* post */
+.content {
+    width: 700px;
+    padding-top: 30px;
+    padding-left: 10px;
+    background-color: 100px;
+}
+
+.stories {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    background-image: linear-gradient(
+        135deg,
+        #ed4956,
+        #f79a3a,
+        #d68fd6,
+        #c13584
+    );
+    background-size: 300% 300%;
+}
+
+.photo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-item {
+    text-align: center;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.story-name {
+    font-size: 12px;
+}
+
+.story {
+    margin-left: -130px;
+    margin-top: -12px;
+}
+
+.profile-post {
+    width: 512px;
+    margin-left: 12px;
+    margin-top: -14px;
+}
+
+.colon {
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.postingan {
+    margin-left: 36px;
+}
+
+.bi-post {
+    font-size: 24px;
+    margin-right: 16px;
+}
+
+.bi-bookmark {
+    margin-top: -28px;
+    margin-right: 172px;
+}
+
+.img-post {
+    border-radius: 4px;
+    margin-top: -24px;
+    margin-bottom: 6px;
+    width: 100px;
+}
+
+.name-post {
+    margin-top: -12px;
+}
+
+.img-suggested, .img-right, .img-detail, .sidebar-image {
+    border-radius: 50%;
+}
+
+/* Detail */
+.img-detail {
+    margin-left: 64px;
+}
+
+.user-profile {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+}
+
+.user-info {
+    margin-left: 100px; 
+}
+
+.user-detail {
+    margin-right: 24px;
+}
+
+.btn-edit {
+    margin-top: -6px;
+}
+
+.btn-detail {
+    background-color: #B4B4B8;
+    font-size: 14px;
+    color: white;
+    transition: .5s;
+}
+
+.bi-gear {
+    margin-left: 12px;
+    font-size: 24px;
+    margin-top: -4px;
+}
+
+.line-detail {
+    width: 930px;
+    margin-left: -10px;
+    border: solid 1px black;
+}
+
+.row-detail-post {
+    margin-left: -24px;
+    width: 1000px;
+}
+
+.bi-detail {
+    margin-left: 280px;
+}
+
+.count-detail {
+    margin-right: 40px;
+    margin-top: 2px;
+}
+
+.bio {
+    font-size: 14px;
+    margin-top: -6px;
+}
+
+/* Sidebar Right */
+.profile-right {
+    width: 336px;
+    position: absolute;
+    top: 8px;
+    left: 1060px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-right img {
+    margin-right: 10px;
+}
+
+.suggested {
+    position: absolute;
+    width: 327px;
+    top: 78px;
+    left: 1068px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.see-all {
+    font-size: 12px;
+}
+
+.img-post-profile {
+    margin-right: -20px;
+    margin-bottom: 4px;
+}
+
+.for-you p, .profile-right p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.profile-right .text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container {
+    margin-left: auto;
+}
+
+.for-you-group {
+    width: 336px;
+    position: absolute;
+    top: 128px;
+    left: 1060px;
+    margin-top: -16px;
+}
+
+.for-you {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.for-you + .for-you {
+    margin-top: -28px;
+}
+
+.about {
+    width: 300px;
+    position: absolute;
+    top: 478px;
+    left: 1090px;
+    margin-top: -16px;
+    font-size: 12px;
+}
+
+.copyright {
+    width: 300px;
+    position: absolute;
+    top: 538px;
+    left: 1090px;
+    margin-top: -16px;
+    font-size: 12px;
+}
+
+/* hover */
+.sidebar-item:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}

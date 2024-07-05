@@ -1,0 +1,31 @@
+.create {
+    font-size: 18px;
+}
+
+.line-left {
+    width: 37%;
+    border-top: solid 1px black;
+    margin-top: 14px;
+}
+
+.line-right {
+    width: 37%;
+    border-top: solid 1px black;
+    margin-top: 14px;
+}
+
+.facebook {
+    cursor: pointer;
+}
+
+.bi-facebook {
+    margin-right: 4px;
+}
+
+.learn {
+    font-size: 14px;
+}
+
+.terms {
+    font-size: 14px;
+}
